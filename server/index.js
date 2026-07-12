@@ -220,6 +220,16 @@ async function loadJsonProblems() {
 }
 
 async function loadGfgProblems() {
+  try {
+    const raw = await fs.readFile(GFG_DATA_PATH, "utf-8");
+    const parsed = JSON.parse(raw);
+    if (Array.isArray(parsed) && parsed.length > 0) {
+      return parsed;
+    }
+  } catch (error) {
+    // local file not available, try GitHub
+  }
+
   if (GITHUB_RAW_BASE) {
     const raw = await fetchFromGithub("server/data/gfg-problems.json");
     if (raw) {
@@ -234,13 +244,7 @@ async function loadGfgProblems() {
     }
   }
 
-  try {
-    const raw = await fs.readFile(GFG_DATA_PATH, "utf-8");
-    const parsed = JSON.parse(raw);
-    return Array.isArray(parsed) ? parsed : [];
-  } catch (error) {
-    return [];
-  }
+  return [];
 }
 
 async function loadDashboardStateFromFile() {
