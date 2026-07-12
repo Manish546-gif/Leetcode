@@ -1,7 +1,7 @@
 {
-  "rootDirectory": "client",
-  "buildCommand": "npm ci && npm run build",
-  "outputDirectory": "dist",
+  "installCommand": "cd client && npm ci",
+  "buildCommand": "cd client && npm run build",
+  "outputDirectory": "client/dist",
   "rewrites": [
     {
       "source": "/(.*)",
