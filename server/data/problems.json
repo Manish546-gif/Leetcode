@@ -550,6 +550,17 @@
     "path": "1317-convert-integer-to-the-sum-of-two-no-zero-integers"
   },
   {
+    "id": "1331-rank-transform-of-an-array",
+    "number": 1331,
+    "title": "Rank Transform Of An Array",
+    "slug": "rank-transform-of-an-array",
+    "difficulty": "",
+    "topics": [],
+    "status": "solved",
+    "lastUpdated": "2026-07-12T13:21:36.323Z",
+    "path": "1331-rank-transform-of-an-array"
+  },
+  {
     "id": "1342-number-of-steps-to-reduce-a-number-to-zero",
     "number": 1342,
     "title": "Number Of Steps To Reduce A Number To Zero",
@@ -713,6 +724,17 @@
     "status": "solved",
     "lastUpdated": "2026-02-16T18:27:59.198Z",
     "path": "2078-two-furthest-houses-with-different-colors"
+  },
+  {
+    "id": "2089-find-target-indices-after-sorting-array",
+    "number": 2089,
+    "title": "Find Target Indices After Sorting Array",
+    "slug": "find-target-indices-after-sorting-array",
+    "difficulty": "",
+    "topics": [],
+    "status": "solved",
+    "lastUpdated": "2026-07-12T13:21:36.327Z",
+    "path": "2089-find-target-indices-after-sorting-array"
   },
   {
     "id": "2139-minimum-moves-to-reach-target-score",
