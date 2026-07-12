@@ -516,10 +516,10 @@ async function getGfgProblemDetail(problemId) {
   const problem = problems.find((item) => item.id === problemId);
   if (!problem) return null;
 
-  let readme = null;
-  let code = null;
+  let readme = problem.description || null;
+  let code = problem.code || null;
 
-  if (GITHUB_REPO && problem.path) {
+  if (GITHUB_REPO && problem.path && (!readme || !code)) {
     const parts = problem.path.split("/");
     const dirUrl = `${GITHUB_API_BASE}/${parts.map(encodeURIComponent).join("/")}`;
     console.log(`[GFG] Fetching: ${dirUrl}`);
