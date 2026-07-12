@@ -1,0 +1,66 @@
+{
+  "key": "global",
+  "state": {
+    "search": "",
+    "difficulty": "all",
+    "sort": "updated-desc",
+    "selectedTopics": [
+      "Segment Tree",
+      "Array"
+    ],
+    "selectedProblemId": "2341-maximum-number-of-pairs-in-array",
+    "bookmarks": [],
+    "searchHistory": [
+      "4sum",
+      "4",
+      "3",
+      "3sun",
+      "3su",
+      "3s"
+    ],
+    "theme": "mono",
+    "contestTracker": {
+      "rating": "",
+      "bestRank": "",
+      "contests": "",
+      "lastContest": ""
+    },
+    "planner": {
+      "focus": "",
+      "minutes": "45",
+      "dueDate": "",
+      "notes": ""
+    },
+    "collections": [
+      {
+        "id": "collection-1783801923320-taf122",
+        "name": "Fhjjkm",
+        "problemIds": []
+      }
+    ],
+    "reviewQueue": [
+      {
+        "id": "review-1783801893151-3g3467",
+        "problemId": "2341-maximum-number-of-pairs-in-array",
+        "reason": "Needs another pass",
+        "createdAt": "2026-07-11T20:31:33.151Z"
+      }
+    ],
+    "codeHistory": [
+      {
+        "id": "code-1783801894579-32qocf",
+        "problemId": "2341-maximum-number-of-pairs-in-array",
+        "title": "Maximum Number Of Pairs In Array",
+        "code": "class Solution {\npublic:\n    vector<int> numberOfPairs(vector<int>& nums) {\n        vector<int> arr(101, 0);\n\n        for (int i = 0; i < nums.size(); i++) {\n            arr[nums[i]]++;\n        }\n\n        int pairs = 0;\n        int rem = 0;\n\n        for (int i = 0; i < 101; i++) {\n            pairs += arr[i] / 2;   \n            rem += arr[i] % 2;    \n        }\n\n        return {pairs, rem};\n    }\n};\n",
+        "savedAt": "2026-07-11T20:31:34.580Z"
+      }
+    ],
+    "interviewMode": {
+      "company": "Ggg",
+      "focusTopic": "",
+      "duration": "45",
+      "active": true
+    }
+  },
+  "updatedAt": "2026-07-12T09:30:17.559Z"
+}
