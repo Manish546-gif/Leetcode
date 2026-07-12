@@ -1,11 +1,8 @@
 {
+  "rootDirectory": "client",
   "buildCommand": "npm ci && npm run build",
   "outputDirectory": "dist",
   "rewrites": [
-    {
-      "source": "/api/(.*)",
-      "destination": "https://leetcode-c2eh.onrender.com/api/$1"
-    },
     {
       "source": "/(.*)",
       "destination": "/index.html"
