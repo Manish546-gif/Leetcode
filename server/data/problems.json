@@ -55,11 +55,22 @@
     "path": "0011-container-with-most-water"
   },
   {
+    "id": "0012-integer-to-roman",
+    "number": 12,
+    "title": "Integer To Roman",
+    "slug": "integer-to-roman",
+    "difficulty": "medium",
+    "topics": [],
+    "status": "solved",
+    "lastUpdated": "2026-07-13T18:41:39.057Z",
+    "path": "0012-integer-to-roman"
+  },
+  {
     "id": "0015-3sum",
     "number": 15,
     "title": "15. 3Sum",
     "slug": "3sum",
-    "difficulty": "",
+    "difficulty": "medium",
     "topics": [],
     "status": "solved",
     "lastUpdated": "2026-07-12T09:50:51.698Z",
@@ -297,6 +308,17 @@
     "path": "0189-rotate-array"
   },
   {
+    "id": "0206-reverse-linked-list",
+    "number": 206,
+    "title": "Reverse Linked List",
+    "slug": "reverse-linked-list",
+    "difficulty": "easy",
+    "topics": [],
+    "status": "solved",
+    "lastUpdated": "2026-07-13T18:41:39.060Z",
+    "path": "0206-reverse-linked-list"
+  },
+  {
     "id": "0225-implement-stack-using-queues",
     "number": 225,
     "title": "Implement Stack Using Queues",
@@ -495,6 +517,17 @@
     "path": "0875-koko-eating-bananas"
   },
   {
+    "id": "0876-middle-of-the-linked-list",
+    "number": 876,
+    "title": "Middle Of The Linked List",
+    "slug": "middle-of-the-linked-list",
+    "difficulty": "easy",
+    "topics": [],
+    "status": "solved",
+    "lastUpdated": "2026-07-13T18:41:39.064Z",
+    "path": "0876-middle-of-the-linked-list"
+  },
+  {
     "id": "0977-squares-of-a-sorted-array",
     "number": 977,
     "title": "Squares Of A Sorted Array",
@@ -539,6 +572,17 @@
     "path": "1283-find-the-smallest-divisor-given-a-threshold"
   },
   {
+    "id": "1291-sequential-digits",
+    "number": 1291,
+    "title": "Sequential Digits",
+    "slug": "sequential-digits",
+    "difficulty": "medium",
+    "topics": [],
+    "status": "solved",
+    "lastUpdated": "2026-07-13T18:41:39.068Z",
+    "path": "1291-sequential-digits"
+  },
+  {
     "id": "1317-convert-integer-to-the-sum-of-two-no-zero-integers",
     "number": 1317,
     "title": "Convert Integer To The Sum Of Two No Zero Integers",
@@ -554,7 +598,7 @@
     "number": 1331,
     "title": "Rank Transform Of An Array",
     "slug": "rank-transform-of-an-array",
-    "difficulty": "",
+    "difficulty": "easy",
     "topics": [],
     "status": "solved",
     "lastUpdated": "2026-07-12T13:21:36.323Z",
@@ -730,7 +774,7 @@
     "number": 2089,
     "title": "Find Target Indices After Sorting Array",
     "slug": "find-target-indices-after-sorting-array",
-    "difficulty": "",
+    "difficulty": "easy",
     "topics": [],
     "status": "solved",
     "lastUpdated": "2026-07-12T13:21:36.327Z",
@@ -966,6 +1010,17 @@
     "status": "solved",
     "lastUpdated": "2026-07-11T19:20:03.632Z",
     "path": "2769-find-the-maximum-achievable-number"
+  },
+  {
+    "id": "2942-find-words-containing-character",
+    "number": 2942,
+    "title": "Find Words Containing Character",
+    "slug": "find-words-containing-character",
+    "difficulty": "easy",
+    "topics": [],
+    "status": "solved",
+    "lastUpdated": "2026-07-13T18:41:39.071Z",
+    "path": "2942-find-words-containing-character"
   },
   {
     "id": "3110-score-of-a-string",
