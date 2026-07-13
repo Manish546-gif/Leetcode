@@ -7,6 +7,7 @@ import rehypeRaw from "rehype-raw";
 import rehypeSanitize from "rehype-sanitize";
 import remarkGfm from "remark-gfm";
 import { fetchJson } from "../utils/api.js";
+import { BG_OPTIONS, useBg } from "../App.jsx";
 
 const difficultyLabels = {
   easy: "Easy",
@@ -39,6 +40,7 @@ export default function GfgHome() {
   const [difficulty, setDifficulty] = useState("all");
   const [sort, setSort] = useState("updated-desc");
   const [selectedId, setSelectedId] = useState(null);
+  const { bgIndex, setBgIndex } = useBg();
   const [detail, setDetail] = useState(null);
   const [detailLoading, setDetailLoading] = useState(false);
 
@@ -126,6 +128,18 @@ export default function GfgHome() {
 
   return (
     <div className="grid gap-5 lg:gap-6">
+      <button
+        type="button"
+        title={`Background: ${BG_OPTIONS[bgIndex].label}`}
+        onClick={() => setBgIndex((i) => (i + 1) % BG_OPTIONS.length)}
+        className="fixed bottom-6 right-6 z-20 glass-icon-button flex h-10 w-10 items-center justify-center"
+      >
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-4 w-4">
+          <rect x="3" y="3" width="18" height="18" rx="2" />
+          <circle cx="8.5" cy="8.5" r="1.5" fill="currentColor" stroke="none" />
+          <path d="M21 15l-5-5L5 21" />
+        </svg>
+      </button>
       {/* Header */}
       <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-white/10 bg-white/[0.06] px-4 py-4 sm:px-5 backdrop-blur-xl">
         <div className="flex items-center gap-3">

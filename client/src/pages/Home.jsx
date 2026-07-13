@@ -7,22 +7,7 @@ import rehypeRaw from "rehype-raw";
 import rehypeSanitize from "rehype-sanitize";
 import remarkGfm from "remark-gfm";
 import { fetchJson, postJson } from "../utils/api.js";
-
-import bgErik from "../assets/erik-mclean-8SeJUmfahu0-unsplash.jpg";
-import bgJase from "../assets/jase-bloor-oCZHIa1D4EU-unsplash.jpg";
-import bgLevon from "../assets/levon-vardanyan-_EpaiWp5yC8-unsplash.jpg";
-import bgMoujib from "../assets/moujib-aghrout-s9ESRUFnKDg-unsplash.jpg";
-import bgTianshu from "../assets/tianshu-liu-aqZ3UAjs_M4-unsplash.jpg";
-import bgTim from "../assets/tim-mossholder-tq8Cuap8_wY-unsplash.jpg";
-
-const BG_OPTIONS = [
-  { src: bgErik, label: "Erik" },
-  { src: bgJase, label: "Jase" },
-  { src: bgLevon, label: "Levon" },
-  { src: bgMoujib, label: "Moujib" },
-  { src: bgTianshu, label: "Tianshu" },
-  { src: bgTim, label: "Tim" },
-];
+import { BG_OPTIONS, useBg } from "../App.jsx";
 
 const DAILY_GOAL = 3;
 
@@ -43,7 +28,6 @@ const STORAGE_KEYS = {
   reviewQueue: "lc-review-queue",
   codeHistory: "lc-code-history",
   interviewMode: "lc-interview-mode",
-  bgIndex: "lc-bg-index",
 };
 
 const THEME_OPTIONS = [
@@ -403,10 +387,7 @@ export default function Home() {
     ...DEFAULT_INTERVIEW_MODE,
     ...readStoredJson(STORAGE_KEYS.interviewMode, DEFAULT_INTERVIEW_MODE),
   }));
-  const [bgIndex, setBgIndex] = useState(() => {
-    const saved = parseInt(localStorage.getItem(STORAGE_KEYS.bgIndex), 10);
-    return isNaN(saved) ? 0 : saved % BG_OPTIONS.length;
-  });
+  const { bgIndex, setBgIndex } = useBg();
   const [collectionName, setCollectionName] = useState("");
   const [snapshotText, setSnapshotText] = useState("");
   const [syncStatus, setSyncStatus] = useState("loading");
@@ -938,21 +919,6 @@ export default function Home() {
   useEffect(() => {
     writeStoredJson(STORAGE_KEYS.interviewMode, interviewMode);
   }, [interviewMode]);
-
-  useEffect(() => {
-    localStorage.setItem(STORAGE_KEYS.bgIndex, String(bgIndex));
-    document.documentElement.style.setProperty(
-      "--background-image",
-      `url("${BG_OPTIONS[bgIndex].src}")`
-    );
-  }, [bgIndex]);
-
-  useEffect(() => {
-    BG_OPTIONS.forEach(({ src }) => {
-      const img = new Image();
-      img.src = src;
-    });
-  }, []);
 
   const selectedDifficulty = getDifficultyMeta(selectedProblem?.difficulty);
 
