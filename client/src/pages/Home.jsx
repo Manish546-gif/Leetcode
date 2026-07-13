@@ -947,6 +947,13 @@ export default function Home() {
     );
   }, [bgIndex]);
 
+  useEffect(() => {
+    BG_OPTIONS.forEach(({ src }) => {
+      const img = new Image();
+      img.src = src;
+    });
+  }, []);
+
   const selectedDifficulty = getDifficultyMeta(selectedProblem?.difficulty);
 
   return (
