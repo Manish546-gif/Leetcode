@@ -20,12 +20,26 @@ public:
         return count;
     }
     ListNode* middleNode(ListNode* head) {
-        int ln = length(head)/2;
-        ListNode* temp = head;
-        while(ln>0){
-            temp= temp->next;
-            ln--;
+        // int ln = length(head)/2;
+        // ListNode* temp = head;
+        // while(ln>0){
+        //     temp= temp->next;
+        //     ln--;
+        // }
+        // return temp;
+
+        //second approach
+       
+
+         ListNode* slow = head;
+        ListNode* fast = head;
+
+        while(fast && fast->next){
+            slow = slow->next;
+            fast = fast->next->next;
         }
-        return temp;
+
+        return slow;
+     
     }
 };
