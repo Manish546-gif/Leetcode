@@ -10,21 +10,37 @@
  */
 class Solution {
 public:
-void reverse(ListNode* &head, ListNode* &curr, ListNode* &prev){
+
+ListNode* reverse1(ListNode* &head){
     //base case 
-    if(curr == NULL){
-        head= prev;
-        return ;
-    }
-    ListNode* frwd = curr->next;
-    reverse(head, frwd, curr);
-    curr->next = prev;
-}
-    ListNode* reverseList(ListNode* head) {
-        ListNode* curr = head;
-        ListNode* prev = NULL;
-        reverse(head, curr,prev);
+    if(head==NULL || head->next == NULL){
         return head;
+    }
+    ListNode* chd = reverse1(head->next);
+    head->next->next = head;
+    head->next = NULL;
+    return chd;
+}
+
+
+// void reverse(ListNode* &head, ListNode* &curr, ListNode* &prev){
+//     //base case 
+//     if(curr == NULL){
+//         head= prev;
+//         return ;
+//     }
+//     ListNode* frwd = curr->next;
+//     reverse(head, frwd, curr);
+//     curr->next = prev;
+// }
+    ListNode* reverseList(ListNode* head) {
+        
+        return reverse1(head);
+
+        // ListNode* curr = head;
+        // ListNode* prev = NULL;
+        // reverse(head, curr,prev);
+        // return head;
 
 
         // if(head == NULL || head->next==NULL){
