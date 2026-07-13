@@ -127,7 +127,7 @@ export default function GfgHome() {
   return (
     <div className="grid gap-5 lg:gap-6">
       {/* Header */}
-      <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-white/10 bg-zinc-800/90 px-4 py-4 sm:px-5">
+      <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-white/10 bg-white/[0.06] px-4 py-4 sm:px-5 backdrop-blur-xl">
         <div className="flex items-center gap-3">
           <Link
             to="/"
