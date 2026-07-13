@@ -8,6 +8,22 @@ import rehypeSanitize from "rehype-sanitize";
 import remarkGfm from "remark-gfm";
 import { fetchJson, postJson } from "../utils/api.js";
 
+import bgErik from "../assets/erik-mclean-8SeJUmfahu0-unsplash.jpg";
+import bgJase from "../assets/jase-bloor-oCZHIa1D4EU-unsplash.jpg";
+import bgLevon from "../assets/levon-vardanyan-_EpaiWp5yC8-unsplash.jpg";
+import bgMoujib from "../assets/moujib-aghrout-s9ESRUFnKDg-unsplash.jpg";
+import bgTianshu from "../assets/tianshu-liu-aqZ3UAjs_M4-unsplash.jpg";
+import bgTim from "../assets/tim-mossholder-tq8Cuap8_wY-unsplash.jpg";
+
+const BG_OPTIONS = [
+  { src: bgErik, label: "Erik" },
+  { src: bgJase, label: "Jase" },
+  { src: bgLevon, label: "Levon" },
+  { src: bgMoujib, label: "Moujib" },
+  { src: bgTianshu, label: "Tianshu" },
+  { src: bgTim, label: "Tim" },
+];
+
 const DAILY_GOAL = 3;
 
 const difficultyLabels = {
@@ -27,6 +43,7 @@ const STORAGE_KEYS = {
   reviewQueue: "lc-review-queue",
   codeHistory: "lc-code-history",
   interviewMode: "lc-interview-mode",
+  bgIndex: "lc-bg-index",
 };
 
 const THEME_OPTIONS = [
@@ -266,6 +283,16 @@ function IconGfg({ className = "" }) {
   );
 }
 
+function IconImage({ className = "" }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className={className}>
+      <rect x="3" y="3" width="18" height="18" rx="2" />
+      <circle cx="8.5" cy="8.5" r="1.5" fill="currentColor" stroke="none" />
+      <path d="M21 15l-5-5L5 21" />
+    </svg>
+  );
+}
+
 function DifficultyChart({ stats }) {
   const entries = Object.entries(stats?.byDifficulty || {});
   const total = entries.reduce((sum, [, value]) => sum + value, 0) || 1;
@@ -376,6 +403,10 @@ export default function Home() {
     ...DEFAULT_INTERVIEW_MODE,
     ...readStoredJson(STORAGE_KEYS.interviewMode, DEFAULT_INTERVIEW_MODE),
   }));
+  const [bgIndex, setBgIndex] = useState(() => {
+    const saved = parseInt(localStorage.getItem(STORAGE_KEYS.bgIndex), 10);
+    return isNaN(saved) ? 0 : saved % BG_OPTIONS.length;
+  });
   const [collectionName, setCollectionName] = useState("");
   const [snapshotText, setSnapshotText] = useState("");
   const [syncStatus, setSyncStatus] = useState("loading");
@@ -908,6 +939,14 @@ export default function Home() {
     writeStoredJson(STORAGE_KEYS.interviewMode, interviewMode);
   }, [interviewMode]);
 
+  useEffect(() => {
+    localStorage.setItem(STORAGE_KEYS.bgIndex, String(bgIndex));
+    document.documentElement.style.setProperty(
+      "--background-image",
+      `url("${BG_OPTIONS[bgIndex].src}")`
+    );
+  }, [bgIndex]);
+
   const selectedDifficulty = getDifficultyMeta(selectedProblem?.difficulty);
 
   return (
@@ -931,6 +970,9 @@ export default function Home() {
         <a href="/gfg" title="GFG" className="glass-icon-button flex items-center justify-center">
           <IconGfg className="h-4 w-4" />
         </a>
+        <SidebarButton title={`Background: ${BG_OPTIONS[bgIndex].label}`} onClick={() => setBgIndex((i) => (i + 1) % BG_OPTIONS.length)}>
+          <IconImage className="h-4 w-4" />
+        </SidebarButton>
       </aside>
 
       <main className="glass-shell relative mx-auto w-full max-w-[1600px] overflow-hidden p-4 pb-28 sm:p-6 md:pl-24 lg:p-7 lg:pb-7 xl:p-8">
