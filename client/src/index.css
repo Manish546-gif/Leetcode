@@ -6,8 +6,8 @@
 
 :root {
   color-scheme: only light;
-  --glass-bg: rgba(20, 20, 20, 0.26);
-  --glass-bg-strong: rgba(10, 10, 10, 0.48);
+  --glass-bg: rgba(20, 20, 20, 0.12);
+  --glass-bg-strong: rgba(10, 10, 10, 0.28);
   --glass-border: rgba(255, 255, 255, 0.12);
   --glass-shadow: 0 24px 80px rgba(0, 0, 0, 0.38);
   --warm-text: rgba(255, 255, 255, 0.96);
@@ -19,8 +19,8 @@
 }
 
 html[data-theme="noir"] {
-  --glass-bg: rgba(12, 12, 12, 0.3);
-  --glass-bg-strong: rgba(0, 0, 0, 0.58);
+  --glass-bg: rgba(12, 12, 12, 0.15);
+  --glass-bg-strong: rgba(0, 0, 0, 0.32);
   --glass-border: rgba(255, 255, 255, 0.1);
   --glass-shadow: 0 30px 90px rgba(0, 0, 0, 0.5);
   --warm-text: rgba(255, 255, 255, 0.98);
@@ -29,8 +29,8 @@ html[data-theme="noir"] {
 }
 
 html[data-theme="pearl"] {
-  --glass-bg: rgba(255, 255, 255, 0.2);
-  --glass-bg-strong: rgba(245, 245, 245, 0.34);
+  --glass-bg: rgba(255, 255, 255, 0.1);
+  --glass-bg-strong: rgba(245, 245, 245, 0.2);
   --glass-border: rgba(0, 0, 0, 0.12);
   --glass-shadow: 0 24px 72px rgba(0, 0, 0, 0.2);
   --warm-text: rgba(22, 22, 22, 0.96);
