@@ -137,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/Manish546-gif/Leetcode/tree/master/0268-missing-number) |
 | [0367-valid-perfect-square](https://github.com/Manish546-gif/Leetcode/tree/master/0367-valid-perfect-square) |
 | [0371-sum-of-two-integers](https://github.com/Manish546-gif/Leetcode/tree/master/0371-sum-of-two-integers) |
+| [0445-add-two-numbers-ii](https://github.com/Manish546-gif/Leetcode/tree/master/0445-add-two-numbers-ii) |
 | [1317-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/Manish546-gif/Leetcode/tree/master/1317-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1342-number-of-steps-to-reduce-a-number-to-zero](https://github.com/Manish546-gif/Leetcode/tree/master/1342-number-of-steps-to-reduce-a-number-to-zero) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/Manish546-gif/Leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -311,6 +312,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Manish546-gif/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0225-implement-stack-using-queues](https://github.com/Manish546-gif/Leetcode/tree/master/0225-implement-stack-using-queues) |
+| [0445-add-two-numbers-ii](https://github.com/Manish546-gif/Leetcode/tree/master/0445-add-two-numbers-ii) |
 ## Design
 |  |
 | ------- |
@@ -356,6 +358,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0021-merge-two-sorted-lists](https://github.com/Manish546-gif/Leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/Manish546-gif/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0206-reverse-linked-list](https://github.com/Manish546-gif/Leetcode/tree/master/0206-reverse-linked-list) |
+| [0445-add-two-numbers-ii](https://github.com/Manish546-gif/Leetcode/tree/master/0445-add-two-numbers-ii) |
 | [0707-design-linked-list](https://github.com/Manish546-gif/Leetcode/tree/master/0707-design-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/Manish546-gif/Leetcode/tree/master/0876-middle-of-the-linked-list) |
 ## Bucket Sort
