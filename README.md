@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0875-koko-eating-bananas](https://github.com/Manish546-gif/Leetcode/tree/master/0875-koko-eating-bananas) |
 | [0977-squares-of-a-sorted-array](https://github.com/Manish546-gif/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Manish546-gif/Leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
+| [1260-shift-2d-grid](https://github.com/Manish546-gif/Leetcode/tree/master/1260-shift-2d-grid) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/Manish546-gif/Leetcode/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Manish546-gif/Leetcode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1331-rank-transform-of-an-array](https://github.com/Manish546-gif/Leetcode/tree/master/1331-rank-transform-of-an-array) |
@@ -245,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/Manish546-gif/Leetcode/tree/master/0067-add-binary) |
+| [1260-shift-2d-grid](https://github.com/Manish546-gif/Leetcode/tree/master/1260-shift-2d-grid) |
 | [1920-build-array-from-permutation](https://github.com/Manish546-gif/Leetcode/tree/master/1920-build-array-from-permutation) |
 | [1929-concatenation-of-array](https://github.com/Manish546-gif/Leetcode/tree/master/1929-concatenation-of-array) |
 | [2154-keep-multiplying-found-values-by-two](https://github.com/Manish546-gif/Leetcode/tree/master/2154-keep-multiplying-found-values-by-two) |
@@ -297,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0048-rotate-image](https://github.com/Manish546-gif/Leetcode/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/Manish546-gif/Leetcode/tree/master/0073-set-matrix-zeroes) |
+| [1260-shift-2d-grid](https://github.com/Manish546-gif/Leetcode/tree/master/1260-shift-2d-grid) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/Manish546-gif/Leetcode/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1572-matrix-diagonal-sum](https://github.com/Manish546-gif/Leetcode/tree/master/1572-matrix-diagonal-sum) |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Manish546-gif/Leetcode/tree/master/1886-determine-whether-matrix-can-be-obtained-by-rotation) |
