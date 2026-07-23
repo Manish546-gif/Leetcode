@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Manish546-gif/Leetcode/tree/master/2529-maximum-count-of-positive-integer-and-negative-integer) |
 | [2942-find-words-containing-character](https://github.com/Manish546-gif/Leetcode/tree/master/2942-find-words-containing-character) |
 | [3379-transformed-array](https://github.com/Manish546-gif/Leetcode/tree/master/3379-transformed-array) |
+| [3513-number-of-unique-xor-triplets-i](https://github.com/Manish546-gif/Leetcode/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3637-trionic-array-i](https://github.com/Manish546-gif/Leetcode/tree/master/3637-trionic-array-i) |
 | [3719-longest-balanced-subarray-i](https://github.com/Manish546-gif/Leetcode/tree/master/3719-longest-balanced-subarray-i) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Manish546-gif/Leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2455-average-value-of-even-numbers-that-are-divisible-by-three](https://github.com/Manish546-gif/Leetcode/tree/master/2455-average-value-of-even-numbers-that-are-divisible-by-three) |
 | [2469-convert-the-temperature](https://github.com/Manish546-gif/Leetcode/tree/master/2469-convert-the-temperature) |
 | [2769-find-the-maximum-achievable-number](https://github.com/Manish546-gif/Leetcode/tree/master/2769-find-the-maximum-achievable-number) |
+| [3513-number-of-unique-xor-triplets-i](https://github.com/Manish546-gif/Leetcode/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Manish546-gif/Leetcode/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Manish546-gif/Leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Binary Search
@@ -194,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0868-binary-gap](https://github.com/Manish546-gif/Leetcode/tree/master/0868-binary-gap) |
 | [1342-number-of-steps-to-reduce-a-number-to-zero](https://github.com/Manish546-gif/Leetcode/tree/master/1342-number-of-steps-to-reduce-a-number-to-zero) |
 | [2206-divide-array-into-equal-pairs](https://github.com/Manish546-gif/Leetcode/tree/master/2206-divide-array-into-equal-pairs) |
+| [3513-number-of-unique-xor-triplets-i](https://github.com/Manish546-gif/Leetcode/tree/master/3513-number-of-unique-xor-triplets-i) |
 ## Sorting
 |  |
 | ------- |
