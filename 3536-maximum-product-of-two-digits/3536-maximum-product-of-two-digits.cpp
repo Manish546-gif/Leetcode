@@ -14,8 +14,8 @@ public:
             }
             n /=10;
         }
-        int res = first*second;
-        return res;
+       
+        return first*second;
     }
     
 };
