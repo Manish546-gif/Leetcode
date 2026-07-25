@@ -155,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2769-find-the-maximum-achievable-number](https://github.com/Manish546-gif/Leetcode/tree/master/2769-find-the-maximum-achievable-number) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/Manish546-gif/Leetcode/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/Manish546-gif/Leetcode/tree/master/3514-number-of-unique-xor-triplets-ii) |
+| [3536-maximum-product-of-two-digits](https://github.com/Manish546-gif/Leetcode/tree/master/3536-maximum-product-of-two-digits) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Manish546-gif/Leetcode/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Manish546-gif/Leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Binary Search
@@ -219,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2164-sort-even-and-odd-indices-independently](https://github.com/Manish546-gif/Leetcode/tree/master/2164-sort-even-and-odd-indices-independently) |
 | [2195-append-k-integers-with-minimal-sum](https://github.com/Manish546-gif/Leetcode/tree/master/2195-append-k-integers-with-minimal-sum) |
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/Manish546-gif/Leetcode/tree/master/2357-make-array-zero-by-subtracting-equal-amounts) |
+| [3536-maximum-product-of-two-digits](https://github.com/Manish546-gif/Leetcode/tree/master/3536-maximum-product-of-two-digits) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Manish546-gif/Leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Two Pointers
 |  |
