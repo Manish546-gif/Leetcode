@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0442-find-all-duplicates-in-an-array](https://github.com/Manish546-gif/Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Manish546-gif/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/Manish546-gif/Leetcode/tree/master/0485-max-consecutive-ones) |
+| [0486-predict-the-winner](https://github.com/Manish546-gif/Leetcode/tree/master/0486-predict-the-winner) |
 | [0525-contiguous-array](https://github.com/Manish546-gif/Leetcode/tree/master/0525-contiguous-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Manish546-gif/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Manish546-gif/Leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0367-valid-perfect-square](https://github.com/Manish546-gif/Leetcode/tree/master/0367-valid-perfect-square) |
 | [0371-sum-of-two-integers](https://github.com/Manish546-gif/Leetcode/tree/master/0371-sum-of-two-integers) |
 | [0445-add-two-numbers-ii](https://github.com/Manish546-gif/Leetcode/tree/master/0445-add-two-numbers-ii) |
+| [0486-predict-the-winner](https://github.com/Manish546-gif/Leetcode/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Manish546-gif/Leetcode/tree/master/0628-maximum-product-of-three-numbers) |
 | [1317-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/Manish546-gif/Leetcode/tree/master/1317-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1342-number-of-steps-to-reduce-a-number-to-zero](https://github.com/Manish546-gif/Leetcode/tree/master/1342-number-of-steps-to-reduce-a-number-to-zero) |
@@ -322,6 +324,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/Manish546-gif/Leetcode/tree/master/0410-split-array-largest-sum) |
+| [0486-predict-the-winner](https://github.com/Manish546-gif/Leetcode/tree/master/0486-predict-the-winner) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/Manish546-gif/Leetcode/tree/master/1277-count-square-submatrices-with-all-ones) |
 ## Matrix
 |  |
@@ -339,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0021-merge-two-sorted-lists](https://github.com/Manish546-gif/Leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0050-powx-n](https://github.com/Manish546-gif/Leetcode/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/Manish546-gif/Leetcode/tree/master/0206-reverse-linked-list) |
+| [0486-predict-the-winner](https://github.com/Manish546-gif/Leetcode/tree/master/0486-predict-the-winner) |
 ## Stack
 |  |
 | ------- |
@@ -404,4 +408,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/Manish546-gif/Leetcode/tree/master/0451-sort-characters-by-frequency) |
+## Game Theory
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/Manish546-gif/Leetcode/tree/master/0486-predict-the-winner) |
 <!---LeetCode Topics End-->
