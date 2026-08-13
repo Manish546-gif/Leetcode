@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Manish546-gif/Leetcode/tree/master/0001-two-sum) |
 | [0012-integer-to-roman](https://github.com/Manish546-gif/Leetcode/tree/master/0012-integer-to-roman) |
+| [0013-roman-to-integer](https://github.com/Manish546-gif/Leetcode/tree/master/0013-roman-to-integer) |
 | [0041-first-missing-positive](https://github.com/Manish546-gif/Leetcode/tree/master/0041-first-missing-positive) |
 | [0073-set-matrix-zeroes](https://github.com/Manish546-gif/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/Manish546-gif/Leetcode/tree/master/0128-longest-consecutive-sequence) |
@@ -136,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0012-integer-to-roman](https://github.com/Manish546-gif/Leetcode/tree/master/0012-integer-to-roman) |
+| [0013-roman-to-integer](https://github.com/Manish546-gif/Leetcode/tree/master/0013-roman-to-integer) |
 | [0067-add-binary](https://github.com/Manish546-gif/Leetcode/tree/master/0067-add-binary) |
 | [0451-sort-characters-by-frequency](https://github.com/Manish546-gif/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [2325-decode-the-message](https://github.com/Manish546-gif/Leetcode/tree/master/2325-decode-the-message) |
@@ -150,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0007-reverse-integer](https://github.com/Manish546-gif/Leetcode/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/Manish546-gif/Leetcode/tree/master/0009-palindrome-number) |
 | [0012-integer-to-roman](https://github.com/Manish546-gif/Leetcode/tree/master/0012-integer-to-roman) |
+| [0013-roman-to-integer](https://github.com/Manish546-gif/Leetcode/tree/master/0013-roman-to-integer) |
 | [0029-divide-two-integers](https://github.com/Manish546-gif/Leetcode/tree/master/0029-divide-two-integers) |
 | [0048-rotate-image](https://github.com/Manish546-gif/Leetcode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/Manish546-gif/Leetcode/tree/master/0050-powx-n) |
