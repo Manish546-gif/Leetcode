@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/Manish546-gif/Leetcode/tree/master/3514-number-of-unique-xor-triplets-ii) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/Manish546-gif/Leetcode/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
 | [3637-trionic-array-i](https://github.com/Manish546-gif/Leetcode/tree/master/3637-trionic-array-i) |
+| [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/Manish546-gif/Leetcode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 | [3719-longest-balanced-subarray-i](https://github.com/Manish546-gif/Leetcode/tree/master/3719-longest-balanced-subarray-i) |
 | [3731-find-missing-elements](https://github.com/Manish546-gif/Leetcode/tree/master/3731-find-missing-elements) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Manish546-gif/Leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -227,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2206-divide-array-into-equal-pairs](https://github.com/Manish546-gif/Leetcode/tree/master/2206-divide-array-into-equal-pairs) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/Manish546-gif/Leetcode/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/Manish546-gif/Leetcode/tree/master/3514-number-of-unique-xor-triplets-ii) |
+| [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/Manish546-gif/Leetcode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 ## Sorting
 |  |
 | ------- |
