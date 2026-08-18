@@ -143,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Manish546-gif/Leetcode/tree/master/0013-roman-to-integer) |
 | [0067-add-binary](https://github.com/Manish546-gif/Leetcode/tree/master/0067-add-binary) |
 | [0451-sort-characters-by-frequency](https://github.com/Manish546-gif/Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [1143-longest-common-subsequence](https://github.com/Manish546-gif/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [2325-decode-the-message](https://github.com/Manish546-gif/Leetcode/tree/master/2325-decode-the-message) |
 | [2942-find-words-containing-character](https://github.com/Manish546-gif/Leetcode/tree/master/2942-find-words-containing-character) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Manish546-gif/Leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
@@ -344,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/Manish546-gif/Leetcode/tree/master/0410-split-array-largest-sum) |
 | [0486-predict-the-winner](https://github.com/Manish546-gif/Leetcode/tree/master/0486-predict-the-winner) |
+| [1143-longest-common-subsequence](https://github.com/Manish546-gif/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/Manish546-gif/Leetcode/tree/master/1277-count-square-submatrices-with-all-ones) |
 ## Matrix
 |  |
@@ -436,4 +438,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Manish546-gif/Leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
+## Longest Common Subsequence
+|  |
+| ------- |
+| [1143-longest-common-subsequence](https://github.com/Manish546-gif/Leetcode/tree/master/1143-longest-common-subsequence) |
 <!---LeetCode Topics End-->
