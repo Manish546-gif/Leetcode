@@ -372,11 +372,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/Manish546-gif/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0225-implement-stack-using-queues](https://github.com/Manish546-gif/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0445-add-two-numbers-ii](https://github.com/Manish546-gif/Leetcode/tree/master/0445-add-two-numbers-ii) |
+| [0901-online-stock-span](https://github.com/Manish546-gif/Leetcode/tree/master/0901-online-stock-span) |
 ## Design
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/Manish546-gif/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0707-design-linked-list](https://github.com/Manish546-gif/Leetcode/tree/master/0707-design-linked-list) |
+| [0901-online-stock-span](https://github.com/Manish546-gif/Leetcode/tree/master/0901-online-stock-span) |
 ## Queue
 |  |
 | ------- |
@@ -448,4 +450,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Manish546-gif/Leetcode/tree/master/0020-valid-parentheses) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0901-online-stock-span](https://github.com/Manish546-gif/Leetcode/tree/master/0901-online-stock-span) |
+## Data Stream
+|  |
+| ------- |
+| [0901-online-stock-span](https://github.com/Manish546-gif/Leetcode/tree/master/0901-online-stock-span) |
 <!---LeetCode Topics End-->
