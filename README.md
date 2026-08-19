@@ -370,12 +370,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/Manish546-gif/Leetcode/tree/master/0020-valid-parentheses) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Manish546-gif/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0155-min-stack](https://github.com/Manish546-gif/Leetcode/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/Manish546-gif/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0445-add-two-numbers-ii](https://github.com/Manish546-gif/Leetcode/tree/master/0445-add-two-numbers-ii) |
 | [0901-online-stock-span](https://github.com/Manish546-gif/Leetcode/tree/master/0901-online-stock-span) |
 ## Design
 |  |
 | ------- |
+| [0155-min-stack](https://github.com/Manish546-gif/Leetcode/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/Manish546-gif/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0707-design-linked-list](https://github.com/Manish546-gif/Leetcode/tree/master/0707-design-linked-list) |
 | [0901-online-stock-span](https://github.com/Manish546-gif/Leetcode/tree/master/0901-online-stock-span) |
