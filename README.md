@@ -147,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/Manish546-gif/Leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [1143-longest-common-subsequence](https://github.com/Manish546-gif/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [2325-decode-the-message](https://github.com/Manish546-gif/Leetcode/tree/master/2325-decode-the-message) |
+| [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/Manish546-gif/Leetcode/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [2942-find-words-containing-character](https://github.com/Manish546-gif/Leetcode/tree/master/2942-find-words-containing-character) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Manish546-gif/Leetcode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3110-score-of-a-string](https://github.com/Manish546-gif/Leetcode/tree/master/3110-score-of-a-string) |
@@ -449,6 +450,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/Manish546-gif/Leetcode/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Manish546-gif/Leetcode/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 ## Longest Common Subsequence
 |  |
