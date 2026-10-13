@@ -1,0 +1,26 @@
+class Solution {
+public:
+    long long maxAlternatingSum(vector<int>& nums) {
+        int n = nums.size();
+        vector<long long> squares(n);
+        for (int i = 0; i < n; ++i) {
+            squares[i] = (long long)nums[i] * nums[i];
+        }
+        
+        sort(squares.begin(), squares.end());
+        long long score = 0;
+        int mid = n / 2;
+        
+        // Subtract the smaller half (odd indices in alternating sum)
+        for (int i = 0; i < mid; ++i) {
+            score -= squares[i];
+        }
+        
+        // Add the larger half (even indices in alternating sum)
+        for (int i = mid; i < n; ++i) {
+            score += squares[i];
+        }
+        
+        return score;
+    }
+};
